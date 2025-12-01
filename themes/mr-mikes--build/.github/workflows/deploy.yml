@@ -1,0 +1,53 @@
+name: deploy
+on:
+  push:
+    branches:
+      - main
+      - staging
+    paths-ignore:
+      - "README.md"
+
+jobs:
+  deploy-to-staging:
+    if: github.ref == 'refs/heads/staging' && vars.STAGING_THEMES_REMOTE_DIR != '' && github.event_name == 'push' && !github.event.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Print remote directory
+        run: echo "Deploying to ${{ vars.STAGING_THEMES_REMOTE_DIR }}"
+
+      - name: Deploy to Staging via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: ${{ secrets.SFTP_HOST }}
+          port: ${{ secrets.SFTP_PORT }}
+          user: ${{ secrets.SFTP_USER }}
+          pass: ${{ secrets.SFTP_PASS }}
+          remoteDir: ${{ vars.STAGING_THEMES_REMOTE_DIR }}
+          options: "--verbose"
+
+  deploy-to-production:
+    if: github.ref == 'refs/heads/main' && vars.PRODUCTION_THEMES_REMOTE_DIR != '' && github.event_name == 'push' && !github.event.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Print remote directory
+        run: echo "Deploying to ${{ vars.PRODUCTION_THEMES_REMOTE_DIR }}"
+
+      - name: Deploy to Production via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: ${{ secrets.SFTP_HOST }}
+          port: ${{ secrets.SFTP_PORT }}
+          user: ${{ secrets.SFTP_USER }}
+          pass: ${{ secrets.SFTP_PASS }}
+          remoteDir: ${{ vars.PRODUCTION_THEMES_REMOTE_DIR }}
+          options: "--verbose"

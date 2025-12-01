@@ -1,0 +1,38 @@
+name: Post Merge Comment
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+      - staging
+
+jobs:
+  post-merge-comment:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Script
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            console.log(`Event Name: ${context.eventName}`);
+            console.log(`Pull Request: ${JSON.stringify(context.payload.pull_request, null, 2)}`);
+      - name: Comment on PR
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const pr = context.payload.pull_request;
+            const branch = pr.base.ref;
+            const websiteURL = branch === 'main' ? 'https://mrmikes.ca' : 'https://mrmikeslive-staging.gvngsevj6t-xlm41dv224dy.p.temp-site.link';
+            const message = branch === 'main' 
+                            ? `The changes are being deployed to the production environment: [${websiteURL}](${websiteURL}).`
+                            : `The changes are being deployed to the staging environment: [${websiteURL}](${websiteURL}).`;
+
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body: message
+            });
