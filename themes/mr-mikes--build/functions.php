@@ -525,6 +525,10 @@ function add_restaurant_schema() {
 		if ( !empty($hours['mo_from']) ) : $mo_from = $hours['mo_from'];
 		else : $mo_from = $hours_options['mo_from'] ?? ''; endif;
 		if ( !empty($hours['mo_to']) ) : $mo_to = $hours['mo_to'];
+		else : $mo_to = $hours_options['mo_to'] ?? ''; endif;
+		if ( !empty($hours['mo_closed']) ): $mo = "Closed";
+		else : $mo = $mo_from . " - " . $mo_to; endif;
+		
 		if ( !empty($hours['tu_from']) ) : $tu_from = $hours['tu_from'];
 		else : $tu_from = $hours_options['tu_from'] ?? ''; endif;
 		if ( !empty($hours['tu_to']) ) : $tu_to = $hours['tu_to'];
@@ -574,11 +578,7 @@ function add_restaurant_schema() {
 		$city = !empty($location['city']) ? $location['city'] : '';
 		$state = !empty($location['state']) ? $location['state'] : '';
 		$country = !empty($location['country']) ? $location['country'] : '';
-		$post_code = !empty($location['post_code']) ? $location['post_code'] : '';ry' ])):	$country = $location['country'];
-		else: $country = ''; endif;
-		
-		if (! empty($location[ 'post_code' ])):	$post_code = $location['post_code'];
-		else: $post_code = ''; endif;
+		$post_code = !empty($location['post_code']) ? $location['post_code'] : '';
 
         $schema = [
             "@context" => "https://schema.org",
