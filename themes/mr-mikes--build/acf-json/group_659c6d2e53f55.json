@@ -1,0 +1,98 @@
+{
+    "key": "group_659c6d2e53f55",
+    "title": "Page Header Options",
+    "fields": [
+        {
+            "key": "field_659c6d2e9c833",
+            "label": "Header Type",
+            "name": "header_type",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "Set here the Type of the Header for this Page (Regular or Landing Page Header (LP Header))",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "regular": "Regular",
+                "lp_header": "LP Header"
+            },
+            "default_value": "regular",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_65a69857c8d63",
+            "label": "Footer Type",
+            "name": "footer_type",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "Set here the Type of the Footer for this Page (Regular or Landing Page Footer (LP Footer) - empty footer without menu and additional links)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "regular": "Regular",
+                "lp_footer": "LP Footer"
+            },
+            "default_value": "regular",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_659dd21ef520d",
+            "label": "CTA Button Link",
+            "name": "cta_button_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Set here the Link for the LP Header CTA Button or leave it emty to hide it",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_659c6d2e9c833",
+                        "operator": "==",
+                        "value": "lp_header"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1705417185
+}

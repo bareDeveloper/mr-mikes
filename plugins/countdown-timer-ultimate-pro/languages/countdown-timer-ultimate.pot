@@ -1,0 +1,1357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Countdown Timer Ultimate Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 11:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7\n"
+"X-Domain: countdown-timer-ultimate"
+
+#: wpcdt-plugin-updater.php:447
+#, php-format
+msgid ""
+"%sRegister%s your copy of Countdown Timer Ultimate Pro to receive access to "
+"automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:145
+msgid "5 stars!"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:48
+msgid "A link to a timer."
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:47
+msgid "Above Timer"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:184
+msgid "Account page"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:183
+msgid "account page"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:123 wpcdt-plugin-updater.php:132
+msgid "Activate License"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:398
+msgid "Activate Plugin License"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:150
+msgid "Activation Left Site(s)"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:130
+msgid "Active"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:149
+msgid "Active Site(s)"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:28
+msgid "Add New Timer"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:27
+msgid "Add Timer"
+msgstr ""
+
+#: includes/wpcdt-functions.php:520
+msgid "After Add to Cart"
+msgstr ""
+
+#: includes/wpcdt-functions.php:535
+msgid "After Purchase Button"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:178
+msgid ""
+"After save changes you can see an another button named 'Activate License'."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:279
+msgid "All looks good. No old records found."
+msgstr ""
+
+#: includes/wpcdt-functions.php:340
+msgid "All settings reset successfully."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:26
+msgid "All Timers"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:253 wpcdt-plugin-updater.php:311
+#: wpcdt-plugin-updater.php:368
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:79
+msgid "Animation"
+msgstr ""
+
+#: includes/class-wpcdt-script.php:49
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:153
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:101
+msgid "Background Width"
+msgstr ""
+
+#: includes/wpcdt-functions.php:247
+msgid "Bars Clock"
+msgstr ""
+
+#: includes/wpcdt-functions.php:519
+msgid "Before Add to Cart"
+msgstr ""
+
+#: includes/wpcdt-functions.php:534
+msgid "Before Purchase Button"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:48
+msgid "Below Timer"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:160
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:271
+msgid ""
+"Check this box if you want to enable days and add your desired text in timer."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:276
+msgid ""
+"Check this box if you want to enable hours and add your desired text in "
+"timer."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:283
+msgid ""
+"Check this box if you want to enable minutes and add your desired text in "
+"timer."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:288
+msgid ""
+"Check this box if you want to enable seconds and add your desired text in "
+"timer."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:44
+msgid ""
+"Check this box to enable countdown timer for EDD products. This will enable "
+"countdown timer settings within EDD product settings."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:135
+#: includes/admin/settings/wc-settings.php:135
+msgid "Check this box to enable countdown timer for shop page."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:103
+#: includes/admin/settings/wc-settings.php:103
+msgid "Check this box to enable countdown timer for single product page."
+msgstr ""
+
+#: includes/admin/settings/wc-settings.php:44
+msgid ""
+"Check this box to enable countdown timer for WooCommerce products. This will "
+"enable countdown timer settings within WooCommerce product settings."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:44
+msgid ""
+"Check this box to enable Gutenberg editor for countdown timer post type."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:246
+msgid "Choose recurring timer end time."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:237
+msgid "Choose recurring timer start time."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:307
+msgid "Choose timer background color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:157
+msgid "Choose timer circle background color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:211
+msgid "Choose timer clock theme color."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:334
+msgid "Choose timer content color."
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:24
+msgid "Choose Timer content settings."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:169
+msgid "Choose timer days circle color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:37
+msgid "Choose Timer design settings."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:325
+msgid "Choose timer digit color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:173
+msgid "Choose timer hours circle color."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:316
+msgid "Choose timer label color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:179
+msgid "Choose timer minutes circle color."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:183
+msgid "Choose timer seconds circle color."
+msgstr ""
+
+#: includes/wpcdt-functions.php:236
+msgid "Circle Style 1"
+msgstr ""
+
+#: includes/wpcdt-functions.php:237
+msgid "Circle Style 2"
+msgstr ""
+
+#: includes/wpcdt-functions.php:238
+msgid "Circle Style 3"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:74
+#: includes/admin/metabox/design-metabox.php:122
+msgid "Circle Style Settings"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:127
+msgid "Circle Width"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:91
+msgid "Circle Width (Foreground)"
+msgstr ""
+
+#: includes/admin/settings/settings.php:53
+msgid "Click OK to reset all options. All settings will be reset!"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:148
+msgid "Clock Background Colors Settings"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:202
+msgid "Clock Theme Color Settings"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:55
+msgid "Completion Text"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:345
+msgid "Content"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:43
+msgid "Content Position"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:23
+msgid "Content Settings"
+msgstr ""
+
+#: includes/wpcdt-functions.php:456 includes/admin/class-wpcdt-admin.php:257
+#: includes/admin/metabox/post-sett-metabox.php:118
+#: includes/admin/metabox/wc-sett-metabox.php:33
+msgid "Content Timer"
+msgstr ""
+
+#: includes/wpcdt-functions.php:504 includes/admin/class-wpcdt-admin.php:365
+#: includes/admin/wpcdt-how-it-work.php:128
+msgid "Countdown Timer"
+msgstr ""
+
+#: includes/shortcode/wpcdt-shortcode.php:21
+#: includes/shortcode/wpcdt-shortcode.php:29
+msgid "Countdown Timer - Shortcode"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:130
+msgid "Countdown Timer Pretext"
+msgstr ""
+
+#: includes/admin/settings/settings.php:24
+msgid "Countdown Timer Settings"
+msgstr ""
+
+#: includes/wpcdt-functions.php:505
+msgid "Countdown Timer Shortcode"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:92
+msgid "Countdown Timer Ultimate"
+msgstr ""
+
+#. Name of the plugin
+#: includes/wpcdt-post-types.php:24 includes/wpcdt-post-types.php:25
+#: includes/wpcdt-post-types.php:36
+msgid "Countdown Timer Ultimate Pro"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:84
+msgid "Countdown Timer Ultimate Pro - License Options"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:64
+msgid "Countdown Timer Ultimate Pro - Plugin License"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:83
+msgid "Countdown Timer Ultimate Pro - Settings"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:477
+msgid "Countdown Timer Ultimate Pro database update done successfully."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:53
+msgid "Countdown Timer Ultimate Pro database update required."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:54
+#: includes/admin/wpcdt-db-upgrade.php:89
+msgid ""
+"Countdown Timer Ultimate Pro has been updated! To keep things running "
+"smoothly, we have to update your database to the newest version. The "
+"database update process runs in the background and may take a little while, "
+"so please be patient."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:87
+#, php-format
+msgid ""
+"Countdown Timer Ultimate Pro works with WordPress timezone which you had set "
+"from <a href=\"%s\" target=\"_blank\">General Setting</a> page."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:187
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/settings/custom-css-settings.php:25
+#: includes/admin/settings/register-settings.php:35
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/settings/custom-css-settings.php:16
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:84
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:83
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:185
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:90
+msgid "Database update process has been started."
+msgstr ""
+
+#: includes/wpcdt-functions.php:263 includes/admin/class-wpcdt-admin.php:164
+#: includes/shortcode/wpcdt-timer.php:71
+#: includes/admin/metabox/post-sett-metabox.php:64
+msgid "Days"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:129
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:130
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:271
+msgid "Default Timer"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:44
+#: includes/admin/metabox/post-sett-metabox.php:349
+msgid "Design"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:298
+msgid "Design Common Settings"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:36
+msgid "Design Settings"
+msgstr ""
+
+#: includes/wpcdt-functions.php:490
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:349
+msgid "Document"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:161
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/settings/register-settings.php:32
+msgid "Easy Digital Download"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:31
+msgid "Easy Digital Download Settings"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easy to add and display Countdown Timer. Works with WordPress timezone. No "
+"dependency on client machine."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:29
+msgid "Edit Timer"
+msgstr ""
+
+#: includes/wpcdt-functions.php:489
+#: includes/admin/metabox/edd-sett-metabox.php:31
+#: includes/admin/metabox/wc-sett-metabox.php:43
+#: includes/admin/settings/edd-settings.php:40
+#: includes/admin/settings/edd-settings.php:99
+#: includes/admin/settings/edd-settings.php:131
+#: includes/admin/settings/wc-settings.php:40
+#: includes/admin/settings/wc-settings.php:99
+#: includes/admin/settings/wc-settings.php:131
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:41
+#: includes/admin/metabox/wc-sett-metabox.php:43
+msgid "Enable / Disable countdown timer or choose from global setting."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:40
+msgid "Enable Gutenberg Editor"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:230
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:242
+msgid "End Time"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:145
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:59
+msgid ""
+"Enter completion text which will be shown after the countdown timer is "
+"completed."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:86
+#: includes/admin/settings/wc-settings.php:86
+msgid "Enter countdown timer shortcode for all the products. e.g"
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:82
+msgid "Enter countdown timer shortcode for all the products. e.g."
+msgstr ""
+
+#: includes/admin/metabox/wc-sett-metabox.php:55
+msgid ""
+"Enter countdown timer shortcode for all the products. e.g. [wpcdt_timer "
+"timer_id=\"123\" start_date=\"2021-01-24 23:59:59\" end_date=\"2021-01-26 23:"
+"59:59\"] Please take a look at the plugin documentation for all parameters."
+msgstr ""
+
+#: includes/admin/settings/custom-css-settings.php:29
+msgid "Enter custom CSS to override plugin CSS. Sometime !important will work."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:117
+msgid "Enter plugin license key."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:35
+msgid ""
+"Enter recurring timer storage prefix. Changing the value will restart the "
+"recurring countdown timer again for all users. Default recurring prefix is "
+"\"wpcdt_\"."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:417
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:177
+msgid ""
+"Enter your license key into 'License Key' field and press 'Save Changes' "
+"button."
+msgstr ""
+
+#. Author of the plugin
+msgid "Essential Plugin"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:267
+#: includes/admin/metabox/post-sett-metabox.php:131
+msgid "Evergreen Timer"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:144
+msgid "Evergreen Timer Settings"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:104
+msgid "Expiry Date & Time"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:162
+msgid "Foreground Colors"
+msgstr ""
+
+#: includes/wpcdt-functions.php:282
+msgid "Friday"
+msgstr ""
+
+#: includes/admin/settings/register-settings.php:24
+msgid "General"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:256
+#: includes/admin/settings/general-settings.php:22
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:19
+#: includes/admin/wpcdt-how-it-work.php:112
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:19
+msgid "Getting Started - Countdown Timer Ultimate Pro"
+msgstr ""
+
+#: includes/wpcdt-functions.php:488
+msgid "Global Setting"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:141
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:36
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:171
+msgid "Hire our experts for any WordPress task."
+msgstr ""
+
+#: includes/wpcdt-functions.php:243
+msgid "Horizontal Flip"
+msgstr ""
+
+#: includes/wpcdt-functions.php:262 includes/admin/class-wpcdt-admin.php:165
+#: includes/shortcode/wpcdt-timer.php:72
+#: includes/admin/metabox/post-sett-metabox.php:65
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:72
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:103
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:86
+msgid "How to Use"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.essentialplugin.com/wordpress-plugin/countdown-timer-ultimate/"
+msgstr ""
+
+#: includes/admin/metabox/wpcdt-shrt-prev.php:19
+msgid ""
+"If adding the shortcode to your theme files, add the following template code."
+msgstr ""
+
+#: countdown-timer-ultimate-pro.php:192
+#, php-format
+msgid ""
+"It looks like you had Free version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:273
+#, php-format
+msgid ""
+"Kindly %srenew%s it for further updates and support from your %saccount "
+"page%s."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:91
+msgid "Kindly do not refresh the page or close the browser."
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:172
+msgid "Know More"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:398
+msgid "License"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:140
+msgid "License Information"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:41 wpcdt-plugin-updater.php:317
+msgid "License is activated successfully."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:113
+msgid "License Key"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:148
+msgid "License Limit"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:153
+msgid "Lifetime"
+msgstr ""
+
+#: includes/class-wpcdt-script.php:162
+msgid "Loading..."
+msgstr ""
+
+#: includes/wpcdt-functions.php:261 includes/admin/class-wpcdt-admin.php:166
+#: includes/shortcode/wpcdt-timer.php:73
+#: includes/admin/metabox/post-sett-metabox.php:66
+msgid "Minutes"
+msgstr ""
+
+#: includes/wpcdt-functions.php:245
+msgid "Modern Clock"
+msgstr ""
+
+#: includes/wpcdt-functions.php:278
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:168
+msgid "Need PRO Support?"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:157
+msgid "Need Support?"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:30
+msgid "New Timer"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:33
+msgid "No Timer Found"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:34
+msgid "No Timer Found in Trash"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:76
+#: includes/admin/settings/wc-settings.php:76
+msgid ""
+"Note : `Simple Timer Type` countdown is the best option to choose because of "
+"compact layout."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:184
+msgid "Note : If your license key has expired, please renew your license from"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:109
+msgid ""
+"Note: Expiry Date & Time is compulsory. Set long future date for long "
+"running timer."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:182
+msgid ""
+"Note: If you do not activate the license then you will not get automatic "
+"update of this plugin any more."
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:45
+msgid "Note: This will only work for WordPress 5.0 and more."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:155
+msgid ""
+"On purchase of any product 1 Year of Updates, 1 Year of Expert Support. "
+"After 1 Year, use without renewal OR renew manually at discounted price for "
+"further updates and support."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:275
+#, php-format
+msgid "Percentage Completed : %d"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:105
+msgid "Please activate plugin license to get automatic update of plugin."
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:84
+#: includes/admin/settings/edd-settings.php:87
+#: includes/admin/settings/wc-settings.php:87
+#, php-format
+msgid "Please take a look at the plugin %sdocumentation%s for all parameters."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:64
+msgid "Plugin License"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:101
+msgid "Plugin license is active."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:285
+msgid ""
+"Plugin license is invalid. Please be sure you have entered right plugin "
+"license key."
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:125
+msgid "Plugin Shortcodes"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:350
+msgid "Premium Support"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:350
+msgid "Premium Support - For any Customization"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:179
+msgid ""
+"Press 'Activate License'. If your key is valid then you can see green "
+"'Active' text."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:158
+msgid "Purchase ID"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:62
+msgid "PX"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:220
+msgid "Recurring Days"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:181
+msgid "Recurring Mode"
+msgstr ""
+
+#: includes/admin/settings/general-settings.php:31
+msgid "Recurring Prefix"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:150
+msgid "Recurring Time"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:269
+#: includes/admin/metabox/post-sett-metabox.php:132
+msgid "Recurring Timer"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:175
+msgid "Recurring Timer Settings"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:39
+msgid "Remove Timer Background Image"
+msgstr ""
+
+#: includes/admin/settings/settings.php:53
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/wpcdt-functions.php:283
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/settings/custom-css-settings.php:34
+#: includes/admin/settings/edd-settings.php:157
+#: includes/admin/settings/general-settings.php:50
+#: includes/admin/settings/settings.php:62
+#: includes/admin/settings/wc-settings.php:157
+msgid "Save Changes"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:32
+msgid "Search Timer"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:167
+#: includes/shortcode/wpcdt-timer.php:74
+#: includes/admin/metabox/post-sett-metabox.php:67
+msgid "Seconds"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:75
+#: includes/admin/settings/wc-settings.php:75
+msgid ""
+"Select countdown timer for all products. This is general setting. You can "
+"choose the different timer from the individual product as well."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:134
+msgid "Select countdown timer mode."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:118
+#: includes/admin/settings/wc-settings.php:118
+msgid "Select countdown timer position for single product page."
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:150
+#: includes/admin/settings/wc-settings.php:150
+msgid "Select countdown timer position on shop page."
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:57
+#: includes/admin/metabox/post-sett-metabox.php:121
+#: includes/admin/metabox/wc-sett-metabox.php:47
+#: includes/admin/settings/edd-settings.php:60
+#: includes/admin/settings/wc-settings.php:60
+msgid "Select countdown timer type."
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:72
+#: includes/admin/metabox/wc-sett-metabox.php:51
+msgid ""
+"Select countdown timer. Note : `Simple Timer Type` countdown is the best "
+"option to choose because of compact layout."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:189
+msgid "Select recurring countdown timer mode."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:228
+msgid "Select recurring days. Hold Ctrl key to select multiple days at a time."
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:63
+#: includes/admin/metabox/edd-sett-metabox.php:68
+#: includes/admin/metabox/wc-sett-metabox.php:26
+#: includes/admin/metabox/wc-sett-metabox.php:51
+#: includes/admin/settings/edd-settings.php:66
+#: includes/admin/settings/edd-settings.php:71
+#: includes/admin/settings/wc-settings.php:66
+#: includes/admin/settings/wc-settings.php:71
+msgid "Select Timer"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:86
+msgid "Select timer circle animation style."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:54
+msgid "Select timer design."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:215
+msgid "Select week end day."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:202
+msgid "Select week start day."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:108
+msgid "Set countdown timer expiry date."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:161
+msgid "Set countdown timer recurring time."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:99
+msgid "Set countdown timer start date."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:63
+msgid "Set countdown timer width."
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:50
+msgid "Set the timer content position."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:38
+msgid "Set Timer Background Image"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:106
+msgid "Set timer circle background width."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:96
+#: includes/admin/metabox/design-metabox.php:132
+msgid "Set timer circle width."
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:309
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:309
+msgid "Settings - Countdown Timer Ultimate"
+msgstr ""
+
+#: includes/wpcdt-functions.php:246
+msgid "Shadow Clock"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:126
+#: includes/admin/settings/wc-settings.php:126
+msgid "Shop Page Settings"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:231
+#: includes/admin/metabox/wc-sett-metabox.php:55
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:35
+msgid "Show"
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:38
+msgid "Show / Hide timer title."
+msgstr ""
+
+#: includes/admin/metabox/content-metabox.php:31
+msgid "Show Title"
+msgstr ""
+
+#: includes/wpcdt-functions.php:239
+msgid "Simple Clock 1"
+msgstr ""
+
+#: includes/wpcdt-functions.php:240
+msgid "Simple Clock 2"
+msgstr ""
+
+#: includes/wpcdt-functions.php:241
+msgid "Simple Clock 3"
+msgstr ""
+
+#: includes/wpcdt-functions.php:242
+msgid "Simple Clock 4"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:129
+msgid "Simple Countdown Timer"
+msgstr ""
+
+#: includes/wpcdt-functions.php:466 includes/admin/class-wpcdt-admin.php:255
+#: includes/admin/metabox/wc-sett-metabox.php:33
+msgid "Simple Timer"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:119
+msgid "Simple Timer (Only Timer)"
+msgstr ""
+
+#: includes/shortcode/wpcdt-timer.php:26 includes/shortcode/wpcdt-timer.php:34
+msgid "Simple Timer - Shortcode"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:94
+#: includes/admin/settings/wc-settings.php:94
+msgid "Single Product Page Settings"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:148
+msgid "Sites"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:83
+msgid "Smooth"
+msgstr ""
+
+#: includes/class-wpcdt-public.php:50 includes/class-wpcdt-public.php:120
+#: includes/wpcdt-functions.php:347 includes/admin/wpcdt-db-upgrade.php:154
+msgid "Sorry, Something happened wrong."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:225
+#, php-format
+msgid "Sorry, Something happened wrong. Please contact %ssite administrator%s."
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:229
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:95
+msgid "Start Date & Time"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:233
+msgid "Start Time"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:116
+msgid ""
+"Step-1: This plugin creates a Countdown Timer Ultimate Pro tab in WordPress "
+"menu section"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:117
+msgid "Step-2: Add Timer."
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:118
+msgid "Step-3: Display timer on any Post OR Page of your website."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:175
+msgid "Steps to Activate the License"
+msgstr ""
+
+#: includes/wpcdt-functions.php:277
+msgid "Sunday"
+msgstr ""
+
+#: countdown-timer-ultimate-pro.php:191
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:180
+msgid "That's it. Now you can get auto update of this plugin."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:207
+msgid "Theme Color"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:298
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/wpcdt-functions.php:281
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:84
+msgid "Ticks"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:303
+msgid "Timer Background Color"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:37
+msgid "Timer Background Image"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:330
+msgid "Timer Content Color"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:321
+msgid "Timer Digit Color"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:92
+msgid "Timer draft updated."
+msgstr ""
+
+#: includes/class-wpcdt-public.php:97
+msgid "Timer is finished."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:262
+msgid "Timer Label"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:312
+msgid "Timer Label Color"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:47
+msgid "Timer Link"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:41
+msgid "Timer list."
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:228
+#: includes/admin/metabox/post-sett-metabox.php:126
+msgid "Timer Mode"
+msgstr ""
+
+#: includes/admin/settings/edd-settings.php:108
+#: includes/admin/settings/edd-settings.php:140
+#: includes/admin/settings/wc-settings.php:108
+#: includes/admin/settings/wc-settings.php:140
+msgid "Timer Position"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:43
+msgid "Timer published privately."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:42 includes/wpcdt-post-types.php:87
+msgid "Timer published."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:86
+#, php-format
+msgid "Timer restored to revision from %s"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:44
+msgid "Timer reverted to draft."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:88
+msgid "Timer saved."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:90
+#, php-format
+msgid "Timer scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/wpcdt-post-types.php:45
+msgid "Timer scheduled."
+msgstr ""
+
+#: includes/admin/metabox/edd-sett-metabox.php:78
+#: includes/admin/settings/edd-settings.php:82
+#: includes/admin/settings/wc-settings.php:82
+msgid "Timer Shortcode"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:89
+msgid "Timer submitted."
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:227
+#: includes/admin/metabox/edd-sett-metabox.php:47
+#: includes/admin/metabox/post-sett-metabox.php:114
+#: includes/admin/metabox/wc-sett-metabox.php:47
+#: includes/admin/settings/edd-settings.php:50
+#: includes/admin/settings/wc-settings.php:50
+msgid "Timer Type"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:46 includes/wpcdt-post-types.php:82
+#: includes/wpcdt-post-types.php:85
+msgid "Timer updated."
+msgstr ""
+
+#: includes/admin/metabox/design-metabox.php:59
+msgid "Timer Width"
+msgstr ""
+
+#: includes/admin/metabox/wpcdt-shrt-prev.php:16
+msgid "To display shortcode, add the following shortcode to your page or post."
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:187
+#, php-format
+msgid "Total %d Countdown Timer Post Found."
+msgstr ""
+
+#: includes/wpcdt-functions.php:279
+msgid "Tuesday"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:148
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:55
+#: includes/admin/wpcdt-db-upgrade.php:72
+msgid "Update Database"
+msgstr ""
+
+#: includes/admin/wpcdt-db-upgrade.php:72
+#: includes/admin/wpcdt-db-upgrade.php:85
+msgid "Update Database - Countdown Timer Ultimate"
+msgstr ""
+
+#: includes/wpcdt-post-types.php:40
+msgid "Use as Timer Background Image"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:153 wpcdt-plugin-updater.php:155
+msgid "Valid Upto"
+msgstr ""
+
+#: includes/wpcdt-functions.php:244
+msgid "Vertical Flip"
+msgstr ""
+
+#: includes/admin/class-wpcdt-admin.php:349
+msgid "View Documentation"
+msgstr ""
+
+#: includes/admin/wpcdt-how-it-work.php:162
+msgid "View PRO Demo "
+msgstr ""
+
+#: includes/wpcdt-post-types.php:31
+msgid "View Timer"
+msgstr ""
+
+#: includes/wpcdt-functions.php:280
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:207
+msgid "Week End On"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:194
+msgid "Week Start On"
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:186
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/settings/register-settings.php:28
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/settings/wc-settings.php:31
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:306
+#, php-format
+msgid ""
+"You can manage this from your %saccount%s or Please contact %ssite "
+"administrator%s."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:183
+msgid ""
+"You will receive license key within your product purchase email. If you do "
+"not have license key then you can get it from your"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:91 includes/wpcdt-functions.php:354
+msgid "Your changes saved successfully."
+msgstr ""
+
+#: includes/admin/metabox/post-sett-metabox.php:88
+msgid "Your Current timezone is"
+msgstr ""
+
+#: wpcdt-plugin-updater.php:292
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:268
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:29
+#, php-format
+msgid ""
+"Your license key expired on %s. Kindly <a href=\"%s\" target=\"_blank\">"
+"renew</a> it for further updates and support from your <a href=\"%s\" "
+"target=\"_blank\">account page</a>."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:279
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:280
+#, php-format
+msgid ""
+"Your license key has been disabled. Please contact %ssite administrator%s."
+msgstr ""
+
+#: wpcdt-plugin-updater.php:304
+msgid "Your license key has reached its activation limit."
+msgstr ""

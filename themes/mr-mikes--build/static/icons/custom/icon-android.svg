@@ -1,0 +1,16 @@
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0 0 32 0 32 32 0 32"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="google-play-icon">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M27.8158794,16.5010653 L23.2001608,19.1665528 L20.009809,16 L23.2001608,12.8334472 L27.8158794,15.4989347 C27.9953367,15.6018492 28.1053266,15.7928844 28.1053266,16 C28.1053266,16.2064724 27.9953367,16.3975075 27.8158794,16.5010653 Z M7.94564824,27.9728241 L18.9600804,17.0420101 L21.873206,19.9319799 L7.94564824,27.9728241 Z M6.46753769,4.64337688 L17.9103518,16 L6.46753769,27.3566231 L6.46753769,4.64337688 Z M21.8725628,12.0673769 L18.9600804,14.9579899 L7.94693467,4.02717588 L21.8725628,12.0673769 Z M0,32 L32,32 L32,0 L0,0 L0,32 Z" id="Fill-1" fill="#FFFFFE" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

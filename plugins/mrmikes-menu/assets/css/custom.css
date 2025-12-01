@@ -1,0 +1,17 @@
+/* MrMikes Menu Custom CSS */
+
+.header__row1 {
+    display: flex;
+}
+
+@media (max-width: 649px) {
+
+    .header__row1 {
+        flex-direction: column;
+    }
+
+    .mrmikes-location-selector {
+        margin: 20px 0;
+    }
+
+}

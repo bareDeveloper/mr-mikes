@@ -1,0 +1,42 @@
+{
+    "key": "group_666176a73397d",
+    "title": "Reservation Button Settings",
+    "fields": [
+        {
+            "key": "field_666176a7d885c",
+            "label": "Reservation Button Link",
+            "name": "reservation_button_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Set here the Link for the Reservation button in header or leave it empty to hide the button",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu",
+                "operator": "==",
+                "value": "2"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1717663679
+}

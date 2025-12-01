@@ -1,0 +1,375 @@
+/* MrMikes Location Popup Styles */
+
+.mrmikes-location-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+}
+
+.mrmikes-popup-location-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+    margin-bottom: 30px;
+}
+
+.mrmikes-location-pin {
+    margin: 0;
+    margin-right: 4px;
+    vertical-align: middle;
+    flex-shrink: 0;
+    width: 14px;
+}
+
+.mrmikes-popup-location-pin {
+    margin: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+    flex-shrink: 0;
+    width: 14px;
+}
+
+.mrmikes-location-trigger {
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-family: RobotoSlab !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    letter-spacing: 4% !important;
+    text-transform: uppercase !important;
+    color: rgba(156, 24, 47, 1) !important;
+    margin-left: 10px !important;
+    /*width: 142px !important;*/
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+
+.mrmikes-location-trigger:hover {
+    text-decoration: none !important;
+}
+
+.mrmikes-popup-location-trigger {
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-family: RobotoSlab !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    letter-spacing: 4% !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    margin-left: 0 !important;
+    width: 142px !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+
+.mrmikes-location-popup {
+    position: fixed;
+    top: -100vh; /* Start hidden above the viewport */
+    left: 0; /* Start at left edge by default */
+    width: 360px;
+    height: 100vh;
+    background-color: rgba(156, 24, 47, 1);
+    z-index: 10001;
+    transition: top 0.3s ease-in-out;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal overflow to prevent scrollbar */
+    padding-top: 50px; /* Add top padding for admin bar */
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.29);
+}
+
+.mrmikes-location-popup.active {
+    top: 0; /* Slide down to visible position */
+}
+
+/* Position the popup based on trigger location */
+.mrmikes-location-popup.positioned {
+    /* This class will be added with inline styles for horizontal positioning */
+}
+
+.mrmikes-popup-content {
+    padding: 20px 0;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10003; /* Above the seal image */
+}
+
+.mrmikes-popup-content h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.mrmikes-popup-content p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.mrmikes-popup-close-icon {
+    position: absolute;
+    top: 20px; /* Changed from 70px to 20px */
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0;
+    z-index: 10002;
+}
+
+.mrmikes-popup-close-icon:hover {
+    opacity: 0.7;
+}
+
+/* Seal image at bottom of popup */
+.mrmikes-popup-seal {
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+    width: 207px;
+    opacity: 0.15;
+    margin: 0;
+    z-index: 10001; /* Behind the content */
+}
+
+/* Search field styles */
+.mrmikes-search-container {
+    margin: 20px 0;
+    position: relative;
+}
+
+.mrmikes-search-input {
+    width: 100%;
+    padding: 20px 24px;
+    border-radius: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.16);
+    border: none;
+    outline: none;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.mrmikes-search-input::placeholder {
+    color: #DEB1B9;
+}
+
+.mrmikes-search-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    user-select: none;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mrmikes-search-clear:hover {
+    color: #666;
+}
+
+/* Province list styles */
+.mrmikes-provinces-accordion {
+    margin: 20px 0;
+}
+
+.mrmikes-province-section {
+    padding: 0;
+}
+
+.mrmikes-province-section:last-child {
+    border-bottom: none;
+}
+
+.mrmikes-province-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.mrmikes-province-header:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.province-name {
+    text-size-adjust: 100%;
+    font-family: Goshen, helvetica;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+    font-kerning: normal;
+    font-optical-sizing: auto;
+    font-size: 23.3695px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-emoji: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25.7064px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.dropdown-icon {
+    transition: transform 0.3s ease-in-out;
+    width: 19px;
+    margin: 0;
+}
+
+.mrmikes-province-header.active .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.mrmikes-locations-list {
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.mrmikes-location-item {
+    margin-bottom: 8px;
+}
+
+.mrmikes-location-link {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+    text-size-adjust: 100%;
+    font-family: RobotoSlab, helvetica;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+    font-kerning: normal;
+    font-optical-sizing: auto;
+    font-size: 17px !important;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-emoji: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 19.6px;
+    text-decoration-color: rgb(80, 80, 80);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    color: #fff !important;
+    margin-left: 20px !important;
+}
+
+.mrmikes-location-link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    text-decoration: none;
+}
+
+.location-city {
+    display: block;
+    font-weight: 700;
+}
+
+.location-status {
+    display: block;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 8%;
+    vertical-align: bottom;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 2px;
+    background-color: #F8D29F;
+    padding: 3px 10px;
+    width: fit-content;
+}
+
+.location-street {
+    display: block;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 8%;
+    vertical-align: bottom;
+    text-transform: capitalize;
+    color: rgba(248, 210, 159, 1);
+    margin-top: 2px;
+}
+
+/* Overlay */
+.mrmikes-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out 0.1s, visibility 0.3s ease-in-out 0.1s;
+}
+
+.mrmikes-popup-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Mobile full screen below 1024px */
+@media (max-width: 1023px) {
+    .mrmikes-location-popup {
+        width: 100vw !important;
+        top: -100vh !important;
+        left: 0 !important;
+        height: 100vh !important;
+        z-index: 99999 !important; /* Increase z-index */
+        position: fixed !important;
+    }
+
+    .mrmikes-location-popup.active {
+        top: 0 !important;
+    }
+
+    .mrmikes-popup-overlay {
+        z-index: 99998 !important; /* Ensure overlay is below popup */
+    }
+}
+
+/* Mobile responsive - legacy support for smaller screens */
+@media (max-width: 768px) {
+    /* These styles are now overridden by the 1024px query above */
+}

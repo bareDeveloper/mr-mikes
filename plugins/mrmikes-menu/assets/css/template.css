@@ -1,0 +1,1483 @@
+/* MrMikes Menu Template CSS */
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-hero-section {
+    width: 100%;
+    min-height: 190px;
+    display: flex;
+}
+.menu-hero-left {
+    width: calc(50% - 135px);
+    background: var(--mrm-red, rgba(156, 24, 47, 1));
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu-hero-right {
+    width: calc(50% + 135px);
+    background: white;
+    background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/menu-hero-right.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.menu-hero-left-content {
+    width: 480px;
+    padding-right: 20px;
+}
+.location-title {
+    font-family: Goshen;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    color: white;
+}
+
+.location-region {
+    font-weight: 400;
+    opacity: 0.8;
+}
+.location-address {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 8%;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+    color: white;
+}
+.location-phone {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 8%;
+    text-transform: capitalize;
+    margin: 0;
+    color: white;
+}
+.location-email {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 8%;
+    margin: 0;
+    color: white;
+}
+.location-phone-link,
+.location-email-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.location-phone-link:hover,
+.location-email-link:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.location-contact-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.location-contact-info {
+    flex: 1;
+    max-width: 50%;
+}
+.location-actions {
+    flex: 1;
+    max-width: 50%;
+}
+.hours-details-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 30px;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.hours-details-btn:hover {
+    background: white;
+    color: rgba(156, 24, 47, 1);
+}
+.menu-tabs-section-fixed {
+    position: fixed;
+    top: 86px;
+    z-index: 1000;
+}
+@media (max-width: 649px) {
+    .menu-tabs-section-fixed {
+        top: 63px !important;
+    }
+}
+/* Mobile responsive adjustments */
+@media (max-width: 649px) {
+    .location-contact-actions {
+        flex-direction: column;
+        gap: 25px;
+        align-items: start;
+    }
+
+    .location-contact-info,
+    .location-actions {
+        max-width: 100%;
+    }
+
+    .hours-details-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+/* Menu Tabs Section */
+.menu-tabs-section {
+    width: 100%;
+    background: black;
+    height: 50px;
+}
+.menu-tabs-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 105px;
+}
+.menu-tabs {
+    display: flex;
+    gap: 0;
+    height: 100%;
+}
+.menu-tab {
+    background: transparent;
+    border: none;
+    color: rgba(248, 210, 159, 1);
+    padding: 0 55px;
+    height: 50px;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+.menu-tab.active {
+    background: white;
+    color: rgba(80, 80, 80, 1);
+}
+.menu-tab:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.menu-tab.active:hover {
+    background: white;
+}
+
+.menu-sidebar {
+    width: 245px;
+    background: white;
+    padding: 20px 26px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.menu-sidebar.fixed {
+    position: fixed !important;
+    top: 170px;
+    z-index: 1000;
+}
+
+.menu-categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-category-item {
+    margin-bottom: 16px;
+}
+
+.menu-category-link {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 5%;
+    vertical-align: middle;
+    color: rgba(156, 24, 47, 1);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: font-weight 0.3s ease;
+}
+
+.menu-category-link.active {
+    font-weight: 700;
+}
+
+.menu-category-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(156, 24, 47, 1);
+    transition: width 0.3s ease-in-out;
+}
+
+.menu-category-link:hover::after,
+.menu-category-link.active::after {
+    width: 27px;
+}
+
+.menu-category-link:hover {
+    color: rgba(156, 24, 47, 1);
+    text-decoration: none;
+}
+
+/* Menu Legend */
+.menu-legend {
+    margin-top: 30px;
+}
+
+.legend-divider {
+    border: none;
+    height: 0;
+    border-top: 1px solid rgba(80, 80, 80, 1);
+    color: rgba(80, 80, 80, 1);
+    background-color: rgba(80, 80, 80, 1);
+    margin: 40px 0 20px 0;
+    width: 50%;
+}
+
+.legend-item {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+}
+
+.legend-icon {
+    width: 23px;
+    margin-right: 8px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+.legend-text {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+}
+
+/* Mobile category slider - hidden by default */
+.mobile-category-slider {
+    display: none;
+}
+
+/* Mobile fixed header - hidden by default */
+.mobile-fixed-header {
+    display: none;
+}
+
+/* Hero location selector - hidden by default, only show below 1024px */
+.mrmikes-hero-location-selector {
+    display: none !important; /* Force hidden by default */
+    margin-bottom: 20px;
+    margin-left: 0 !important; /* Remove left margin */
+}
+
+.mrmikes-hero-location-selector .mrmikes-location-trigger {
+    color: #fff !important; /* White text for hero section */
+}
+
+/* Menu Sections */
+.menu-section {
+    width: 100%;
+}
+
+.menu-section-odd {
+    background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/craft-paper-light-grey.jpg');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.menu-section-even {
+    background: white;
+}
+
+.menu-section-wine-odd {
+    background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/dark-grey.jpg');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.menu-section-wine-even {
+    background: #000;
+}
+
+/* Wine section text styling - white text for dark backgrounds */
+.menu-section-wine-odd .menu-section-title,
+.menu-section-wine-even .menu-section-title {
+    color: #fff;
+}
+
+.menu-section-wine-odd .menu-item-title,
+.menu-section-wine-even .menu-item-title {
+    color: #fff;
+}
+
+.menu-section-wine-odd .menu-item-description,
+.menu-section-wine-even .menu-item-description {
+    color: #fff;
+}
+
+/* Wine odd section pricing styling - golden color */
+.menu-section-wine-odd .menu-item-price,
+.menu-section-wine-odd .subitem-price,
+.menu-section-wine-odd .menu-item-subitem-price,
+.menu-section-wine-odd .subitem-title,
+.menu-section-wine-odd .menu-item-subitem-title,
+.menu-section-wine-odd .menu-item-add,
+.menu-section-wine-odd .add-quantity {
+    color: rgba(248, 210, 159, 1);
+}
+
+/* Wine even section pricing styling - rose color */
+.menu-section-wine-even .menu-item-price,
+.menu-section-wine-even .subitem-price,
+.menu-section-wine-even .menu-item-subitem-price,
+.menu-section-wine-even .subitem-title,
+.menu-section-wine-even .menu-item-subitem-title,
+.menu-section-wine-even .menu-item-add,
+.menu-section-wine-even .add-quantity {
+    color: rgba(204, 131, 146, 1);
+}
+
+/* First menu section specific styling */
+.menu-section#features {
+    padding-top: 33px;
+}
+
+.menu-section#features .menu-section-right {
+    padding-top: 45px;
+}
+
+/* First menu section specific styling */
+.menu-section#features-drinks {
+    padding-top: 33px;
+}
+
+.menu-section#features-drinks .menu-section-right {
+    padding-top: 45px;
+}
+
+/* First daily specials section specific styling */
+.menu-section.menu-section-first-specials {
+    padding-top: 33px;
+}
+
+.menu-section.menu-section-first-specials .menu-section-right {
+    padding-top: 45px;
+}
+
+.menu-section-content {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    overflow: visible;
+}
+
+.menu-section-left {
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.menu-section-right {
+    flex: 1;
+    padding: 60px 90px;
+}
+
+.menu-section-title {
+    margin: 0 0 20px 0;
+    font-family: Goshen;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+}
+.menu-section-description {
+    margin: 0 0 40px 0;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 5%;
+    color: rgba(80, 80, 80, 1);
+}
+.menu-section-description-personalized {
+    color: #fff;
+}
+
+/* Wine section description styling - white text for dark backgrounds */
+.menu-section-wine-odd .menu-section-description,
+.menu-section-wine-even .menu-section-description {
+    color: #fff;
+}
+
+/* Menu Items Styles */
+.menu-items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: block;
+    flex: 0 1 calc(50% - 20px); /* 50% width minus half the 40px gap */
+    min-height: auto;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
+.menu-item-content {
+    width: 100%;
+}
+
+.menu-item-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.menu-item-title {
+    margin: 0;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+    flex: 0 0 auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+}
+
+.info-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-link .menu-item-title {
+    margin-bottom: 20px;
+}
+
+.menu-item-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.menu-item-icon {
+    width: 23px;
+    margin: 0;
+    margin-top: -4px;
+}
+
+.menu-item-camera {
+    width: 27px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.menu-item-description {
+    margin: 0 0 15px 0;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+}
+
+.menu-item-description ul {
+    margin: 0;
+    padding-left: 20px;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+}
+
+.menu-item-description ul li {
+    margin-bottom: 4px;
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+}
+
+.menu-item-price {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(156, 24, 47, 1);
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Subitems styling for drinks */
+.menu-item-pricing {
+    margin-bottom: 15px;
+}
+
+.menu-subitems {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-subitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4px 0;
+    border-bottom: 1px dotted rgba(80, 80, 80, 0.3);
+}
+
+.menu-subitem:last-child {
+    border-bottom: none;
+}
+
+.subitem-title {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(80, 80, 80, 1);
+    flex: 1;
+}
+
+.subitem-price {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(156, 24, 47, 1);
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.menu-item-subitem-wrapper {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+/* Additional subitem styles for drinks */
+.menu-item-subitem-title {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.menu-item-subitem-price {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(156, 24, 47, 1);
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.add-quantity {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(156, 24, 47, 1);
+}
+
+/* Updated menu-item-add styling - now an empty container for future use */
+.menu-item-add {
+    display: block;
+    min-height: 0; /* Allow it to collapse when empty */
+    /* Remove previous styling that displayed text */
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: rgba(156, 24, 47, 1);
+    text-decoration: none;
+    cursor: pointer;
+    /* Keep data attribute for future functionality */
+}
+
+.menu-item-add:hover {
+    text-decoration: none;
+    color: rgba(156, 24, 47, 1);
+}
+
+.menu-item-add:empty {
+    /* Hide completely when empty */
+    display: none;
+}
+
+/* Menu item options styling */
+.menu-item-options {
+    margin: 8px 0 15px 0;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(80, 80, 80, 1);
+}
+
+.add-option-text {
+    font-weight: 400;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.add-option-price {
+    font-weight: 700;
+}
+
+.add-option-separator {
+    font-weight: 400;
+    margin: 0 6px;
+}
+
+/* Wine section options styling - golden color for odd sections */
+.menu-section-wine-odd .menu-item-options {
+    color: rgba(248, 210, 159, 1);
+}
+
+/* Wine section options styling - rose color for even sections */
+.menu-section-wine-even .menu-item-options {
+    color: rgba(204, 131, 146, 1);
+}
+
+.menu-item-image {
+    display: none; /* Hide images for now to match the design */
+}
+
+/* Tab Content Styles */
+.menu-tab-content {
+    width: 100%;
+}
+
+.tab-pane {
+    display: none;
+    width: 100%;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.coming-soon-section {
+    width: 100%;
+    min-height: 400px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coming-soon-content {
+    text-align: center;
+    padding: 60px;
+}
+
+.coming-soon-content h2 {
+    font-family: Goshen;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+    margin: 0 0 20px 0;
+}
+
+.coming-soon-content p {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(80, 80, 80, 0.7);
+    margin: 0;
+}
+
+.no-menu-items {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(80, 80, 80, 0.7);
+    font-style: italic;
+}
+
+/* Daily Specials Specific Styling */
+.daily-specials-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.daily-special-day {
+    margin-bottom: 30px;
+}
+
+.daily-special-day-title {
+    font-family: Goshen;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+    margin: 0 0 20px 0;
+    position: relative;
+    display: inline-block;
+}
+
+/* Media Query for screens below 1440px */
+@media (max-width: 1439px) {
+    .menu-hero-left {
+        width: 50%;
+    }
+    .menu-hero-right {
+        width: 50%;
+    }
+    .menu-hero-left-content {
+        width: 100%;
+        padding-left: 50px;
+    }
+    .menu-tabs-container {
+        padding-left: 50px;
+    }
+}
+
+/* Media Query for screens below 1280px - Single column menu items */
+@media (max-width: 1279px) {
+    .menu-items-list .menu-item,
+    .features-menu-items .menu-item {
+        flex: 0 1 100%; /* Full width for single column */
+    }
+}
+
+/* Media Query for screens below 1024px - Hero section adjustments */
+@media (max-width: 1023px) {
+    .menu-hero-left {
+        width: 100%; /* Take full width */
+    }
+    .menu-hero-right {
+        display: none; /* Hide the right section */
+    }
+
+    /* Show hero location selector below 1024px */
+    .mrmikes-hero-location-selector {
+        display: flex !important;
+    }
+
+    /* Hide location selector widget */
+    .mrmikes-location-selector:not(.mrmikes-hero-location-selector) {
+        display: none !important;
+    }
+
+    /* Reset header modifications - remove our custom changes */
+    .header__row1 {
+        display: block !important; /* Reset to default */
+    }
+}
+
+/* Media Query for screens below 650px - Add hero padding and responsive tabs */
+@media (max-width: 649px) {
+    .menu-section#features {
+        padding-top: 0;
+    }
+
+    .menu-section#features-drinks {
+        padding-top: 0;
+    }
+
+    .menu-section.menu-section-first-specials {
+        padding-top: 0;
+    }
+
+    .menu-hero-left {
+        padding: 60px 0; /* Add top and bottom padding */
+    }
+
+    /* Responsive tabs */
+    .menu-tabs-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .menu-tabs {
+        width: 100%;
+        justify-content: flex-start; /* Remove space-between */
+        gap: 0; /* Remove any gap between tabs */
+    }
+
+    .menu-tab {
+        flex: 1 1 auto; /* Equal width distribution */
+        padding: 0 10px; /* Reduced padding for better fit */
+        white-space: nowrap; /* Prevent text wrapping */
+        text-align: center; /* Center text within each tab */
+        justify-content: center; /* Center content horizontally */
+    }
+
+    /* Hide desktop sidebar */
+    .menu-sidebar {
+        display: none !important;
+    }
+
+    /* Mobile category slider */
+    .mobile-category-slider {
+        display: block;
+        width: 100%;
+        background: white;
+        padding: 20px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mobile-category-slider.fixed {
+        position: fixed;
+        top: 112px;
+        z-index: 1000;
+    }
+
+    .mobile-slider-container {
+        position: relative;
+        width: 100%;
+        padding: 0 50px; /* Space for arrows */
+    }
+
+    .mobile-slider-track {
+        display: flex;
+        transition: transform 0.3s ease;
+        gap: 30px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    .mobile-slider-track::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+
+    .mobile-category-item {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    .mobile-category-link {
+        font-family: RobotoSlab;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: rgba(156, 24, 47, 1);
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        transition: font-weight 0.3s ease;
+        padding: 10px 0;
+    }
+
+    .mobile-category-link.active {
+        font-weight: 700;
+    }
+
+    .mobile-category-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: rgba(156, 24, 47, 1);
+        transition: width 0.3s ease-in-out;
+    }
+
+    .mobile-category-link:hover::after,
+    .mobile-category-link.active::after {
+        width: 27px;
+    }
+
+    .mobile-category-link:hover {
+        color: rgba(156, 24, 47, 1);
+        text-decoration: none;
+    }
+
+    /* Slider arrows */
+    .mobile-slider-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 30px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        transition: opacity 0.3s ease;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 0; /* Hide any text content */
+    }
+
+    .mobile-slider-arrow.prev {
+        left: 10px;
+        background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/mobile-slider-prev.png');
+    }
+
+    .mobile-slider-arrow.next {
+        right: 10px;
+        background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/mobile-slider-next.png');
+    }
+
+    .mobile-slider-arrow:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+    }
+
+    /* Adjust menu section layout for mobile */
+    .menu-section-left {
+        display: none !important; /* Hide left section completely on mobile */
+    }
+
+    .menu-section-right {
+        width: 100%;
+        padding: 40px 20px !important;
+    }
+
+    .menu-section .menu-item {
+        padding-top: 40px;
+        border-top: 1px solid rgba(80, 80, 80, 1);
+    }
+
+    /* Daily Specials Mobile Responsive */
+    .daily-specials-content {
+        gap: 25px;
+    }
+
+    .daily-special-day {
+        margin-bottom: 25px;
+    }
+
+    .daily-special-day-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile image toggle styles */
+.menu-item-mobile-image {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.menu-item-mobile-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu-item-camera.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Desktop Image Modal Styles */
+.mrmikes-image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mrmikes-image-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mrmikes-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.mrmikes-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mrmikes-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.mrmikes-modal-close:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.mrmikes-modal-image-container {
+    position: relative;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.mrmikes-modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 540px;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+}
+
+.mrmikes-modal-caption {
+    padding: 20px;
+    background: white;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+    text-align: center;
+    border-top: 1px solid #eee;
+    display: block; /* Ensure it's displayed */
+    min-height: 20px; /* Ensure it has some height even if empty */
+}
+
+/* Prevent body scroll when modal is open */
+body.modal-open {
+    overflow: hidden;
+}
+
+
+
+/* Media Query for screens below 430px - Responsive tabs */
+@media (max-width: 429px) {
+    /* Additional mobile styles can go here if needed */
+}
+
+/* Happiest Hours specific styling */
+.happiest-hours-info {
+    margin-bottom: 30px;
+}
+
+.happiest-hours-times {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(80, 80, 80, 1);
+    margin: 0 0 5px 0;
+}
+
+.happiest-hours-note {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(80, 80, 80, 0.8);
+    margin: 10px 0 0 0;
+}
+
+.happiest-hours-sections-container {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.happiest-hours-section {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.happiest-hours-section-title {
+    font-family: Goshen;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(80, 80, 80, 1);
+    margin: 0 0 20px 0;
+    position: relative;
+    display: inline-block;
+    height: auto;
+}
+
+.price-note {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Mobile responsive for Happiest Hours */
+@media (max-width: 1279px) {
+    .happiest-hours-sections-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.menu-section-personalized {
+    background-image: url('/wp-content/plugins/mrmikes-menu/assets/img/dark-grey.jpg');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.menu-section-personalized .menu-section-title {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.personalized-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 40px;
+    max-width: 100%;
+}
+
+.personalized-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.personalized-step-title {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #fff; /* Default white color */
+    margin: 0 0 20px 0;
+}
+
+/* Make only the step numbers and "Extra Sides" gold */
+.personalized-step-number {
+    color: rgba(248, 210, 159, 1); /* Gold color for step indicators */
+}
+
+.personalized-step-text {
+    color: #fff; /* White color for descriptive text */
+}
+
+.personalized-items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.personalized-item {
+    display: block;
+}
+
+.personalized-item-header {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.personalized-item-name {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.personalized-item-size {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.personalized-item-price {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgba(248, 210, 159, 1); /* Gold color */
+    flex-shrink: 0;
+}
+
+.personalized-additional-cost {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(248, 210, 159, 1); /* Gold color */
+    flex-shrink: 0;
+}
+
+.personalized-item-description {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0;
+}
+
+/* Step 2 Style-specific styling */
+.personalized-style-item {
+    display: block;
+}
+
+.personalized-style-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.personalized-style-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personalized-style-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+.personalized-style-content {
+    flex: 1;
+}
+
+.personalized-style-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.personalized-camera-icon {
+    width: 27px;
+    height: 17px;
+    margin: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+    object-fit: contain; /* Ensures no distortion */
+}
+
+.personalized-additional-mains {
+    grid-column: 1 / -1; /* Span full width of the grid */
+    margin-top: 30px;
+}
+
+.personalized-additional-mains-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 40px;
+}
+
+.personalized-additional-mains .personalized-step-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.personalized-additional-mains .personalized-step-title .personalized-step-number {
+    color: rgba(248, 210, 159, 1); /* Gold color to match the design */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 1279px) {
+    .personalized-additional-mains-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 649px) {
+    .personalized-additional-mains {
+        margin-top: 20px;
+    }
+
+    .personalized-additional-mains-grid {
+        gap: 15px;
+    }
+
+    .personalized-additional-mains .personalized-step-title {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 1279px) {
+    .personalized-menu-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 649px) {
+    .personalized-menu-grid {
+        gap: 30px;
+    }
+
+    .personalized-step-title {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .personalized-items {
+        gap: 12px;
+    }
+
+    .personalized-item-header {
+        gap: 6px;
+    }
+
+    .personalized-style-header {
+        gap: 8px;
+    }
+
+    .personalized-style-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Larger modal for personalized images on mobile */
+    .mrmikes-modal-content {
+        width: 90%;
+        max-height: 95%;
+    }
+
+    .mrmikes-modal-image-container {
+        max-width: 100%;
+    }
+}
