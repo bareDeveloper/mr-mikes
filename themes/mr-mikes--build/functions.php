@@ -518,65 +518,63 @@ function add_restaurant_schema() {
 		$hours         = get_field( 'opening_hours' );
 		$hours_options = get_field( 'opening_hours', 'options' );
 		
-		if ( $hours['mo_from'] ) : $mo_from = $hours['mo_from'];
-		else : $mo_from = $hours_options['mo_from']; endif;
-		if ( $hours['mo_to'] ) : $mo_to = $hours['mo_to'];
-		else : $mo_to = $hours_options['mo_to']; endif;
-		if ( $hours['mo_closed'] ): $mo = "Closed";
-		else : $mo = $mo_from . " - " . $mo_to; endif;
-
-		if ( $hours['tu_from'] ) : $tu_from = $hours['tu_from'];
-		else : $tu_from = $hours_options['tu_from']; endif;
-		if ( $hours['tu_to'] ) : $tu_to = $hours['tu_to'];
-		else : $tu_to = $hours_options['tu_to']; endif;
-		if ( $hours['tu_closed'] ): $tu = "Closed";
+		// Ensure arrays are valid before accessing
+		$hours = is_array($hours) ? $hours : [];
+		$hours_options = is_array($hours_options) ? $hours_options : [];
+		
+		if ( !empty($hours['mo_from']) ) : $mo_from = $hours['mo_from'];
+		else : $mo_from = $hours_options['mo_from'] ?? ''; endif;
+		if ( !empty($hours['mo_to']) ) : $mo_to = $hours['mo_to'];
+		if ( !empty($hours['tu_from']) ) : $tu_from = $hours['tu_from'];
+		else : $tu_from = $hours_options['tu_from'] ?? ''; endif;
+		if ( !empty($hours['tu_to']) ) : $tu_to = $hours['tu_to'];
+		else : $tu_to = $hours_options['tu_to'] ?? ''; endif;
+		if ( !empty($hours['tu_closed']) ): $tu = "Closed";
 		else : $tu = $tu_from . " - " . $tu_to; endif;
 
-		if ( $hours['we_from'] ) : $we_from = $hours['we_from'];
-		else : $we_from = $hours_options['we_from']; endif;
-		if ( $hours['we_to'] ) : $we_to = $hours['we_to'];
-		else : $we_to = $hours_options['we_to']; endif;
-		if ( $hours['we_closed'] ): $we = "Closed";
+		if ( !empty($hours['we_from']) ) : $we_from = $hours['we_from'];
+		else : $we_from = $hours_options['we_from'] ?? ''; endif;
+		if ( !empty($hours['we_to']) ) : $we_to = $hours['we_to'];
+		else : $we_to = $hours_options['we_to'] ?? ''; endif;
+		if ( !empty($hours['we_closed']) ): $we = "Closed";
 		else : $we = $we_from . " - " . $we_to; endif;
 
-		if ( $hours['th_from'] ) : $th_from = $hours['th_from'];
-		else : $th_from = $hours_options['th_from']; endif;
-		if ( $hours['th_to'] ) : $th_to = $hours['th_to'];
-		else : $th_to = $hours_options['th_to']; endif;
-		if ( $hours['th_closed'] ): $th = "Closed";
+		if ( !empty($hours['th_from']) ) : $th_from = $hours['th_from'];
+		else : $th_from = $hours_options['th_from'] ?? ''; endif;
+		if ( !empty($hours['th_to']) ) : $th_to = $hours['th_to'];
+		else : $th_to = $hours_options['th_to'] ?? ''; endif;
+		if ( !empty($hours['th_closed']) ): $th = "Closed";
 		else : $th = $th_from . " - " . $th_to; endif;
 
-		if ( $hours['fr_from'] ) : $fr_from = $hours['fr_from'];
-		else : $fr_from = $hours_options['fr_from']; endif;
-		if ( $hours['fr_to'] ) : $fr_to = $hours['fr_to'];
-		else : $fr_to = $hours_options['fr_to']; endif;
-		if ( $hours['fr_closed'] ): $fr = "Closed";
+		if ( !empty($hours['fr_from']) ) : $fr_from = $hours['fr_from'];
+		else : $fr_from = $hours_options['fr_from'] ?? ''; endif;
+		if ( !empty($hours['fr_to']) ) : $fr_to = $hours['fr_to'];
+		else : $fr_to = $hours_options['fr_to'] ?? ''; endif;
+		if ( !empty($hours['fr_closed']) ): $fr = "Closed";
 		else : $fr = $fr_from . " - " . $fr_to; endif;
 
-		if ( $hours['sa_from'] ) : $sa_from = $hours['sa_from'];
-		else : $sa_from = $hours_options['sa_from']; endif;
-		if ( $hours['sa_to'] ) : $sa_to = $hours['sa_to'];
-		else : $sa_to = $hours_options['sa_to']; endif;
-		if ( $hours['sa_closed'] ): $sa = "Closed";
+		if ( !empty($hours['sa_from']) ) : $sa_from = $hours['sa_from'];
+		else : $sa_from = $hours_options['sa_from'] ?? ''; endif;
+		if ( !empty($hours['sa_to']) ) : $sa_to = $hours['sa_to'];
+		else : $sa_to = $hours_options['sa_to'] ?? ''; endif;
+		if ( !empty($hours['sa_closed']) ): $sa = "Closed";
 		else : $sa = $sa_from . " - " . $sa_to; endif;
 
-		if ( $hours['su_from'] ) : $su_from = $hours['su_from'];
-		else : $su_from = $hours_options['su_from']; endif;
-		if ( $hours['su_to'] ) : $su_to = $hours['su_to'];
-		else : $su_to = $hours_options['su_to']; endif;
-		if ( $hours['su_closed'] ): $su = "Closed";
+		if ( !empty($hours['su_from']) ) : $su_from = $hours['su_from'];
+		else : $su_from = $hours_options['su_from'] ?? ''; endif;
+		if ( !empty($hours['su_to']) ) : $su_to = $hours['su_to'];
+		else : $su_to = $hours_options['su_to'] ?? ''; endif;
+		if ( !empty($hours['su_closed']) ): $su = "Closed";
 		else : $su = $su_from . " - " . $su_to; endif;
 		
-		if (! empty($location[ 'street_name' ])):	$street_name = $location['street_name'];
-		else: $street_name = ''; endif;
+		// Ensure location is an array before accessing
+		$location = is_array($location) ? $location : [];
 		
-		if (! empty($location[ 'city' ])):	$city = $location['city'];
-		else: $city = ''; endif;
-		
-		if (! empty($location[ 'state' ])):	$state = $location['state'];
-		else: $state = ''; endif;
-		
-		if (! empty($location[ 'country' ])):	$country = $location['country'];
+		$street_name = !empty($location['street_name']) ? $location['street_name'] : '';
+		$city = !empty($location['city']) ? $location['city'] : '';
+		$state = !empty($location['state']) ? $location['state'] : '';
+		$country = !empty($location['country']) ? $location['country'] : '';
+		$post_code = !empty($location['post_code']) ? $location['post_code'] : '';ry' ])):	$country = $location['country'];
 		else: $country = ''; endif;
 		
 		if (! empty($location[ 'post_code' ])):	$post_code = $location['post_code'];

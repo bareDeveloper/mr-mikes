@@ -9,7 +9,7 @@ $address_string = '';
 $override_address = get_field( 'override_address' );
 if ( $override_address ) {
     $address_string = get_field( 'raw_address' );
-} else if ( ! empty( $location ) ) {
+} else if ( ! empty( $location ) && is_array( $location ) ) {
 
     // Loop over segments and construct HTML.
     foreach (
@@ -49,7 +49,7 @@ if ( ! empty( $sidebar_cta_settings ) ) {
 
 <div class="single-restaurant">
 
-    <?php if ( isset( $location['lat'] ) && isset( $location['lng'] ) ): ?>
+    <?php if ( is_array($location) && isset( $location['lat'] ) && isset( $location['lng'] ) ): ?>
         <input type="hidden" class="latitude" value="<?php echo $location['lat']; ?>"/>
         <input type="hidden" class="longitude" value="<?php echo $location['lng']; ?>"/>
 

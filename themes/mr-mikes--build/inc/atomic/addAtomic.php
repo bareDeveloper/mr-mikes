@@ -13,7 +13,8 @@ function element($element_name, $props = []){
     if (file_exists($element)) {
 
         // Function to use array properties as variables i.e. $headline instead of $props['headine']
-        extract($props, EXTR_PREFIX_SAME, "");
+        // PHP 8.3 compatible: Use non-empty prefix with EXTR_PREFIX_SAME
+        extract($props, EXTR_PREFIX_SAME, "wddx");
         
         // if (RP_DISPLAY_ELEMENT_PATH) {
         //     echo "<!-- $element_name.php | $element_original_path -->";
