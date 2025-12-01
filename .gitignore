@@ -5,5 +5,14 @@
 /uploads
 /wflogs
 /themes/twenty*
+
+# --- Plugin Exclusion Section ---
+
+# 1. Ensure the 'plugins' directory itself is NOT ignored.
+!/plugins/
+
+# 2. Ignore everything inside the 'plugins' directory.
 /plugins/*
-!/plugins/mrmikes-menu
+
+# 3. Re-include the specific plugin directory (and its contents).
+!/plugins/mrmikes-menu/
