@@ -5,3 +5,5 @@
 /uploads
 /wflogs
 /themes/twenty*
+/plugins/*
+!/plugins/mrmikes-menu
